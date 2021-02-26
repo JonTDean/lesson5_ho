@@ -25,16 +25,16 @@ function App() {
 			</div>
 
 			<Switch>
-				<Route path="/">
+				<Route exact path="/">
 					<Home />
 				</Route>
-				<Route path="/About">
+				<Route exact path="/About">
 					<About />
 				</Route>
-				<Route path="/FavoriteThings">
+				<Route exact path="/FavoriteThings">
 					<FavoriteThings />
 				</Route>
-				<Route path="/Things">
+				<Route exact path="/Things">
 					<Things />
 				</Route>
 			</Switch>
